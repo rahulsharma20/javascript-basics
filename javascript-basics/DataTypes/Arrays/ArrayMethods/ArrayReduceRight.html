@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Array ReduceRight</title>
+    <script>
+        var array1 = [[0, 1], [2, 3], [4, 5]];
+        document.write('Array: ' + array1 + '<br>');
+        document.write('array1.reduceRight((accumulator, currentValue) => accumulator.concat(currentValue))' + '<br>');
+        var newArray = array1.reduceRight(
+            (accumulator, currentValue) => accumulator.concat(currentValue)
+        );
+
+        document.write('New array: ' + newArray);
+        // expected output: Array [4, 5, 2, 3, 0, 1]
+    </script>
+</head>
+<body>
+
+</body>
+</html>

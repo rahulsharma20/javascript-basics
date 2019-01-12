@@ -1,0 +1,4 @@
+Boolean Functions
+
+1. toString() : Convert to string
+2. valueOf() : Return primitive value

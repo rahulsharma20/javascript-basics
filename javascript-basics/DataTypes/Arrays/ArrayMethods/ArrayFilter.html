@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Array Filter</title>
+    <script>
+        function isInLimit(x) {
+            var limit = 10;
+
+            return x <= limit;
+        }
+        var array1 = [1, 2, 3, 6, 90, 23, 7, 12];
+        document.write('Array: ' + array1 + '<br>');
+        document.write('Filtered array: ' + array1.filter(isInLimit));
+    </script>
+</head>
+<body>
+
+</body>
+</html>

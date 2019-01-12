@@ -1,0 +1,20 @@
+Working with dates
+
+Date() object :-
+var x = new Date(); (Date object) // Returns "Sat Jan 05 2019 15:49:16 GMT+0530 (India Standard Time)"
+
+Date Functions :-
+1. getDate() : Returns date (x.getDate(); // Returns 5)
+2. getDay() : Returns day of the week (x.getDay(); // Returns 6)
+3. getFullYear() : Returns year (x.getFullYear(); // Returns 2019)
+4. getMonth() : Returns month
+5. getHours() : Returns hours
+6. getMinutes() : Returns minutes
+7. toString() : Returns string
+8. setMonth() : Set month for a date
+9. setYear() : Set year for a date
+9. setDate() : Set date part for a date
+9. setHours() : Set hours for a date
+9. setMinutes() : Set minutes for a date
+10. setSeconds() : Set seconds for a date
+11. setTime() : Set unix time stamp

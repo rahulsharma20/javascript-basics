@@ -1,0 +1,8 @@
+Events in Javascript
+
+1. Onchange - An html element has been changed
+2. Onclick - User clicks on an element
+3. Onmouseover - User moves mouse over an element
+4. Onmouseout - User moves mouse away from an element
+5. Onkeydown - User pushes a keyboard key
+6. Onload - The browser has finished loading the page

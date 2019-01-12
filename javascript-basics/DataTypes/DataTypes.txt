@@ -1,0 +1,15 @@
+Javascript Data Types :-
+
+1. Number - 1, 2, 3, 4, 5
+2. String - Hello, World
+3. Boolean - true, false
+4. Array - [1, 2, 3], ['Hello', 'World']
+5. Objects - {'Name': 'Rahul', 'Age': 28}
+6. Undefined - var x;
+7. Empty Object or null - var x = null;
+
+Other derived data types :-
+1. Decimal - 1.1, 2.1
+2. Scientific Notation - 123e5, 123e-5
+
+NOTE:- Use typeof operator to check data type of a variable

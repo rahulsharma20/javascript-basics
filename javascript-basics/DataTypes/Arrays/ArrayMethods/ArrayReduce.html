@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Array Reduce</title>
+    <script>
+        var array1 = [1, 2, 3, 4];
+        document.write('Array: ' + array1 + '<br>');
+        var reducer = (accumulator, currentValue) => accumulator + currentValue;
+        document.write('reducer = (accumulator, currentValue) => accumulator + currentValue' + '<br>');
+
+        // 1 + 2 + 3 + 4
+        document.write('array1.reduce(reducer): ' + array1.reduce(reducer) + '<br>');
+        // expected output: 10
+
+        // 5 + 1 + 2 + 3 + 4
+        document.write('array1.reduce(reducer, 5): ' + array1.reduce(reducer, 5));
+        // expected output: 15
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

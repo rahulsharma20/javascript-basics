@@ -1,0 +1,12 @@
+Type Conversions in Javscript
+
+1. Number To string - String(5)
+2. Boolean To String - String(true)
+3. Dates To String - String(Date())
+4. Strings To Numbers - Number("3.45")
+5. Boolean To Numbers - Number(true)
+
+Automatic Type Conversions :-
+1. 10 + null = 10 + 0 = 10
+2. "10" + null = 10null
+3. "5" + 2 = 52

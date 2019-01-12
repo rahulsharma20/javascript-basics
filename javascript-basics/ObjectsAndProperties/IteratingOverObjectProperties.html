@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Iterating over Object properties</title>
+    <script>
+        function Car(name, brand, color) {
+            this.name = name;
+            this.brand = brand;
+            this.color = color;
+        }
+
+        car = new Car('D60', 'Volvo', 'black');
+
+        for (var i in car) {
+            document.write(car[i] + '<br>');
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

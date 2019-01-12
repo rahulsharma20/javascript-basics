@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Object Constructor</title>
+    <script>
+        function Car(name, brand, color) {
+            this.name = name;
+            this.brand = brand;
+            this.color = color;
+            this.showString = function() {
+                return document.write('Car is ' + this.name + ' made by ' + this.brand + ' and color is ' + this.color + '<br>');
+            }
+        }
+
+        car1 = new Car('D60', 'Volvo', 'black');
+        car2 = new Car('Golf', 'Volkswagen', 'white');
+
+        car1.showString();
+        car2.showString();
+    </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Array Splice</title>
+    <script>
+        var months = ['Jan', 'March', 'April', 'June'];
+        document.write('Months: ' + months + '<br>');
+        months.splice(1, 0, 'Feb');
+        document.write('months.splice(1, 0, \'Feb\')' + '<br>');
+        // inserts at 1st index position
+        document.write('Months: ' + months);
+        // expected output: Array ['Jan', 'Feb', 'March', 'April', 'June']
+
+        document.write('months.splice(4, 1, \'May\')' + '<br>');
+        months.splice(4, 1, 'May');
+        // replaces 1 element at 4th index
+        document.write('Months: ' + months);
+        // expected output: Array ['Jan', 'Feb', 'March', 'April', 'May']
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

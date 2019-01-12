@@ -1,0 +1,19 @@
+String Functions
+
+1. length : Returns length of string (var x = "Hello"; x.length // Returns 5)
+2. charAt() : Returns character at specified index (var x = "Hello"; x.charAt(0); // Returns "H")
+3. concat() : Concat another string to a string (var x = "Hello"; x.conact("World"); // Returns "HelloWorld")
+4. endsWith() : Checks if strings ends with specified string (var x = "Hello World"; x.endsWith("World"); // Returns true)
+5. includes() : Checks if string includes specified string (var x = "Hello World There!"; x.includes("World"); // Returns true)
+6. indexOf() : Returns index of first occurrence of specified value. (var x = "Hello World There!"; x.indexOf("World"); // Returns 6)
+7. lastIndexOf() : Returns index of last occurrence of specified value.
+8. toLowerCase() : Convert string to lower case
+9. toUpperCase() : Convert string to upper case
+10. repeat() : Repeat the string specified number of times
+11. split() : Sp;it the string into array of substrings by specified character/string. (var x = "hello world"; x.split(" "); Returns ["Hello", "World"])
+12. startsWith() : Checks if strings starts with specified string
+13. substr() : Extract substring from string (var x = "Hello World"; x.substr(1, 4); // Returns "ello")
+14. substring() : Extract substring between specified indexes (var x = "Hello World"; x.substr(1, 4); // Returns "ell")
+15. trim() : Removes whitespaces from both ends
+16. replace() : Search string for specified value or regular expression and replace with specified value.
+17. search() : Search for string or regular expression in string and return index of first occurrence.

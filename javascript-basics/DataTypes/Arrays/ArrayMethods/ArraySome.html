@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Array Some</title>
+    <script>
+        var array = [1, 2, 3, 4, 5];
+        document.write('array: ' + array + '<br>');
+
+        var even = function(element) {
+            // checks whether an element is even
+            return element % 2 === 0;
+        };
+
+        document.write('Check if any element is even: ' + array.some(even));
+        // expected output: true
+    </script>
+</head>
+<body>
+
+</body>
+</html>

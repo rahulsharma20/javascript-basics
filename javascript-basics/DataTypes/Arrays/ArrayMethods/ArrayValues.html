@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Array Values</title>
+    <script>
+        var array1 = ['a', 'b', 'c'];
+        document.write('Array: ' + array1 + '<br>');
+        var iterator = array1.values();
+
+        for (var value of iterator) {
+            document.write('value of iterator: ' + value + '<br>'); // expected output: "a" "b" "c"
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

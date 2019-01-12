@@ -1,0 +1,33 @@
+Array Methods
+
+1. concat()	      - Joins two or more arrays, and returns a copy of the joined arrays
+2. copyWithin()	  - Copies array elements within the array, to and from specified positions and shift others ahead removing elements that go out of the length
+3. entries()      - Returns a key/value pair Array Iteration Object
+4. every()  	  - Checks if every element in an array pass a test
+5. fill()         - Fill the elements in an array with a static value
+6. filter()       - Creates a new array with every element in an array that pass a test
+7. find()         - Returns the value of the first element in an array that pass a test
+8. findIndex()    - Returns the index of the first element in an array that pass a test
+9. forEach()      - Calls a function for each array element
+10.from()         - Creates an array from an object
+11. includes()    - Check if an array contains the specified element
+12. indexOf()     - Search the array for an element and returns its position
+13. isArray()  	  - Checks whether an object is an array
+14. join()        - Joins all elements of an array into a string
+15. keys()        - Returns a Array Iteration Object, containing the keys of the original array
+16. lastIndexOf() - Search the array for an element, starting at the end, and returns its position
+17. map()         - Creates a new array with the result of calling a function for each array element
+18. pop()         - Removes the last element of an array, and returns that element
+19. push()        - Adds new elements to the end of an array, and returns the new length
+20. reduce()      - Reduce the values of an array to a single value (going left-to-right)
+21. reduceRight() - Reduce the values of an array to a single value (going right-to-left)
+22. reverse()     - Reverses the order of the elements in an array
+23. shift()       - Removes the first element of an array, and returns that element
+24. slice()       - Selects a part of an array, and returns the new array
+25. some()        - Checks if any of the elements in an array pass a test
+26. sort()        - Sorts the elements of an array
+27. splice()      - Adds/Removes elements from an array
+28. toString()    - Converts an array to a string, and returns the result
+29. unshift()     - Adds new elements to the beginning of an array, and returns the new length
+30. values()      - Returns a new Array Iterator object that contains the values for each index in the array.
+31. valueOf()     - Returns the primitive value of an array

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Deleting properties from object</title>
+    <script>
+        function Car(name, brand, color) {
+            this.name = name;
+            this.brand = brand;
+            this.color = color;
+        }
+
+        var car = new Car('D60', 'Volvo', 'Black');
+        delete car.color;
+
+        document.write('Car color is ' + car.color);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

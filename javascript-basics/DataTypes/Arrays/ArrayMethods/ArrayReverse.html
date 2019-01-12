@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Array Reverse</title>
+    <script>
+        var array1 = ['one', 'two', 'three'];
+        document.write('array1: ', array1 + '<br>');
+        // expected output: Array ['one', 'two', 'three']
+
+        var reversed = array1.reverse();
+        document.write('reversed: ', reversed + '<br>');
+        // expected output: Array ['three', 'two', 'one']
+
+        /* Careful: reverse is destructive. It also changes
+        the original array */
+        document.write('array1: ', array1);
+        // expected output: Array ['three', 'two', 'one']
+    </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+Number Functions
+
+1. toString() : convert number to string
+2. toExponential() : String with exponential notation (var x = 2.999; x.toExponential(3) // Returns 2.999e+0)
+3. toFixed() : Return string round off to number of digits specified else integer (var x = 2.0999; x.toFixed(1); // Returns 2.1  x.toFixed(); // returns 2)
+4. toPrecision() : Return string with specified number of digits (var x = 2.9999; x.toPrecision(2); // Returns 2.1)
+5. valueOf(): Return number or Primitive value of number (valueOf(5) // Returns 5)
+6. isInteger(): Returns if number is integer (Number.isInteger(5); // Returns true)

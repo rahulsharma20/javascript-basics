@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Adding properties to an object</title>
+    <script>
+        function Car(name, brand, color) {
+            this.name = name;
+            this.brand = brand;
+            this.color = color;
+        }
+
+        var car = new Car('D60', 'Volvo', 'Black');
+        car.make = '2018';
+
+        document.write('Car make is ' + car.make);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

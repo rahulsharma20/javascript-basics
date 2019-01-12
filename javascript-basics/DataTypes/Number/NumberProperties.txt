@@ -1,0 +1,7 @@
+Number Properties
+
+1. MAX_VALUE  - Returns the largest number possible in JavaScript. (Number.MAX_VALUE)
+2. MIN_VALUE - Returns the smallest number possible in JavaScript. (Number.MIN_VALUE)
+3. NEGATIVE_INFINITY - Represents negative infinity (returned on overflow).
+4. NaN - Represents a "Not-a-Number" value.
+5. POSITIVE_INFINITY - Represents infinity (returned on overflow).
